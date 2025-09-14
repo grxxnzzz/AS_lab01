@@ -30,7 +30,7 @@ Directory prepared for backup must exist, however the second optional directory 
 
 ## Screenshots
 
-[Using the Script](screenshots/Screenshot_1.png)
+![Using the Script](screenshots/Screenshot_1.png)
 
 # Conclusion
 The `backup.sh` script successfully automates the creation of a compressed `tar.gz` backup of a specified directory on __Ubuntu LTS__. It takes a mandatory source directory and an optional backup directory (defaulting to `/backup`), incorporates error handling for nonexistent directories and failed operations, and names backups with a timestamp. The script was created, made executable, executed, and verified as per the task requirements. This project demonstrates fundamental Bash scripting skills, including argument handling, conditional checks, and file operations, providing a reusable tool for routine backup tasks in Linux.
